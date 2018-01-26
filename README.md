@@ -2,7 +2,7 @@ This program can both compress and decompress files using LZW compression.
 
 Several of the files required to run this program are property of Robert Sedgewick and Kevin Wayne, from Algorithms, 4th edition. For this reason, I could not include them.
 
-If you are interested in running, the files are:
+If you are interested in running the program, the files are:
 
 ```BinaryStdIn.java, BinaryStdOut.java, Queue.java, StdIn.java, StdOut.java, TST.java```
 
@@ -31,7 +31,9 @@ and decompressing can be done by:
 Where __MODE__ is either
 
 __n__: normal LZW compression
+
 __r__: reset mode (resets LZW dictionary after it is full)
+
 __m__: monitor mode (resets LZW dictionary after a certain compression threshold has been met)
 
 
